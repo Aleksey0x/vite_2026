@@ -1,7 +1,7 @@
 ---
 description: Code quality and best practices
 globs:
-  alwaysApply: true
+    alwaysApply: true
 ---
 
 Стек проекта:

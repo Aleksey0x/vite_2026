@@ -1,9 +1,9 @@
 ---
 description: Vite plugin development rules
 globs:
-  patterns:
-    - '**/vite*.js'
-    - '**/plugins/**'
+    patterns:
+        - '**/vite*.js'
+        - '**/plugins/**'
 ---
 
 При работе с Vite-плагинами:

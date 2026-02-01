@@ -1,12 +1,40 @@
+// _variables.scss переменные для использования в scss файлах
 // Fonts
 $intertight: 'InterTight', sans-serif;
 $manrope: 'Manrope', sans-serif;
 $font-main: $intertight;
 $font-accent: $manrope;
 // Colors
-$black: #0E0F12;
-$white: #E6E7EB;
-$light-gray: #9AA0AA;
-$yellow: #FFD34E;
+$black: #0e0f12;
+$white: #e6e7eb;
+$light-gray: #9aa0aa;
+$yellow: #ffd34e;
 
-$gradient-1: radial-gradient(circle at 25% 50%, rgba(165, 165, 165, 0.12), rgba(255, 255, 255, 0) 60%);
+// Gradients
+$gradient-1: radial-gradient(
+	circle at 25% 50%,
+	rgba(165, 165, 165, 0.12),
+	rgba(255, 255, 255, 0) 60%
+);
+
+// Bootstrap
+$grid-breakpoints: (
+	xs: 0,
+	sm: 576px,
+	md: 768px,
+	lg: 992px,
+	xl: 1200px,
+	xxl: 1400px,
+	xxxl: 1800px,
+);
+
+$container-max-widths: (
+	sm: 540px,
+	md: 720px,
+	lg: 960px,
+	xl: 1140px,
+	xxl: 1320px,
+	xxxl: 1780px,
+);
+
+$container-padding-x: 15px;

@@ -1,3 +1,4 @@
+// _navigation.scss
 //	SLIDEOUT MENU
 .slideout-menu {
 	position: fixed;
@@ -12,7 +13,6 @@
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-
 }
 
 .slideout-menu-left {
@@ -28,7 +28,6 @@
 	z-index: 1;
 	will-change: transform;
 	min-height: 100vh;
-
 }
 
 .slideout-open,

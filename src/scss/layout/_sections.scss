@@ -1,13 +1,12 @@
+// _sections.scss
 @use '../abstracts/mq';
 @use '../abstracts/variables';
-
 
 .hero {
 	background-image: variables.$gradient-1;
 	background-color: variables.$black;
 
 	&__title {
-
 		font-size: 42px;
 		font-weight: 600;
 		line-height: 1.08;
@@ -16,7 +15,6 @@
 		@include mq.up(md) {
 			font-size: 52px;
 		}
-
 	}
 
 	&__subtitle {
@@ -32,12 +30,9 @@
 	}
 
 	&__description {
-
-
 		font-size: 13px;
 		letter-spacing: 0.02em;
 		opacity: 0.6;
-
 	}
 
 	.hero__cursor {
@@ -49,7 +44,6 @@
 		animation: blink 1s infinite;
 		vertical-align: bottom;
 	}
-
 }
 
 .readme-section {

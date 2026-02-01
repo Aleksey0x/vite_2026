@@ -1,7 +1,7 @@
 ---
 description: Global response and interaction rules
 globs:
-  alwaysApply: true
+    alwaysApply: true
 ---
 
 Отвечай ТОЛЬКО по делу.

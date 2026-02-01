@@ -1,0 +1,18 @@
+// _bs-tokens.scss токены bootstrap для использования в scss файлах в качестве переменных
+@use 'sass:string';
+
+@function bs-var($name) {
+	@return string.unquote('var(--bs-#{$name})');
+}
+
+$bs-primary: bs-var('primary');
+$bs-secondary: bs-var('secondary');
+$bs-success: bs-var('success');
+$bs-info: bs-var('info');
+$bs-warning: bs-var('warning');
+$bs-danger: bs-var('danger');
+
+$bs-body-bg: bs-var('body-bg');
+$bs-body-color: bs-var('body-color');
+$bs-border-color: bs-var('border-color');
+$bs-border-radius: bs-var('border-radius');

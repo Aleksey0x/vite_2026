@@ -1,3 +1,4 @@
+// _base.scss
 @use '../abstracts/variables';
 
 
@@ -6,6 +7,7 @@ body {
 	color: variables.$white;
 	font-family: variables.$font-main;
 	overflow-x: hidden;
+	min-width: 320px;
 
 	// Выделение текста белым цветом
 	::selection {
@@ -27,32 +29,4 @@ picture {
 	img {
 		width: 100%;
 	}
-}
-
-.min-vh-100 {
-	min-height: 100vh;
-}
-
-.gap-1 {
-	gap: 0.25rem;
-}
-
-.gap-2 {
-	gap: 0.5rem;
-}
-
-.gap-3 {
-	gap: 1rem;
-}
-
-.gap-4 {
-	gap: 1.5rem;
-}
-
-.gap-5 {
-	gap: 2rem;
-}
-
-.gap-6 {
-	gap: 2.5rem;
 }

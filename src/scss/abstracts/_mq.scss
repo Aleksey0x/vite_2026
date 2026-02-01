@@ -1,3 +1,4 @@
+// _mq.scss media queries для использования в scss файлах
 $breakpoints: (
 	xs: 360px,
 	sm: 480px,
@@ -6,26 +7,22 @@ $breakpoints: (
 	xl: 1280px,
 	xxl: 1440px,
 	xxxl: 1920px,
-	) !default;
+) !default;
 
-@use "sass:map";
-@use "sass:meta";
-@use "sass:math";
-
-
-
+@use 'sass:map';
+@use 'sass:meta';
+@use 'sass:math';
 
 @function bp($key) {
-	@if meta.type-of($key)==number {
+	@if meta.type-of($key) ==number {
 		@return $key;
 	}
 
 	@if map.has-key($breakpoints, $key) {
-		@return map.get($breakpoints, $key
-	);
-}
+		@return map.get($breakpoints, $key);
+	}
 
-@error "Unknown breakpoint `#{$key}`. Available: #{map.keys($breakpoints)} or pass a number (e.g. 900px).";
+	@error "Unknown breakpoint `#{$key}`. Available: #{map.keys($breakpoints)} or pass a number (e.g. 900px).";
 }
 
 @function _max($key) {

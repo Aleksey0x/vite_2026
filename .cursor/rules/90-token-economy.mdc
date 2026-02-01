@@ -1,7 +1,7 @@
 ---
 description: Token economy and output limits
 globs:
-  alwaysApply: true
+    alwaysApply: true
 ---
 
 Экономь токены:

@@ -1,17 +1,17 @@
-@use "../abstracts/variables.scss";
+// _mobile-menu.scss
+@use '../abstracts/variables.scss';
 
 .mobile-menu {
 	padding: 1em;
 	background-color: variables.$white;
 	color: variables.$black;
-
 }
 
 .slideout-panel {
 	position: relative;
 
 	&::before {
-		content: "";
+		content: '';
 		position: absolute;
 		top: 0;
 		left: 0;

@@ -1,7 +1,7 @@
 ---
 description: Architecture review rules
 globs:
-  alwaysApply: true
+    alwaysApply: true
 ---
 
 Ты — senior frontend architect.

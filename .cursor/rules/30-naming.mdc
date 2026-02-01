@@ -1,7 +1,7 @@
 ---
 description: Naming and conventions
 globs:
-  alwaysApply: true
+    alwaysApply: true
 ---
 
 Проверяй нейминг.
